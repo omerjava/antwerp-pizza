@@ -1,0 +1,143 @@
+.cart {
+  margin-top: 15px;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(49, 65, 59);
+  border-radius: 15px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  width: 200px;
+}
+
+.emptyCart {
+  margin-top: 15px;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  width: 200px;
+}
+
+.emptyCart .empty {
+  height: 80px;
+  margin: 10px;
+  padding: 2px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.emptyCart .empty h5 {
+  margin-top: 10px;
+}
+
+.ordersTitle {
+  margin-top: 10px;
+}
+
+.cart .total {
+  margin: 10px;
+  padding: 2px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cart .totalProducts {
+  margin: 10px;
+  padding: 2px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cart .cartItem {
+  margin: 10px;
+  padding: 3px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cart .cartItem img {
+  border-radius: 15%;
+  width: 4rem;
+  height: 3rem;
+}
+
+.cart .buttons1 {
+  margin-bottom: 2px;
+}
+
+.cart .buttons2 {
+  padding-bottom: 5px;
+}
+
+.cart p {
+  text-align: center;
+}
+
+.cart .responseInfo {
+  color: brown;
+  padding: 0px 10px;
+  margin-top: 15px;
+  font-size: small;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .cart {
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 0px;
+    width: 50%;
+  }
+
+  .emptyCart {
+    margin: 5%;
+    width: 90%;
+  }
+
+  .emptyCart .empty {
+    margin: 5px;
+    height: 40px;
+  }
+
+  .emptyCart .empty h5 {
+    font-size: medium;
+    margin-top: 5px;
+  }
+
+  .cart .totalProducts {
+    display: none;
+  }
+
+  .cart .total {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .cart .cartItem {
+    margin: 0px;
+    padding: 1px;
+  }
+
+  .cart .cartItem .itemInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .cart .cartItem img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cart {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    width: 100%;
+
+    border-radius: 0px;
+  }
+}

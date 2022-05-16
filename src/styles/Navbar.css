@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: black;
+  padding: 5px;
+  height: 90px;
+}
+
+.navbar .leftSide {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar .rightSide {
+  margin-bottom: 0px;
+  margin-right: 50px;
+}
+
+.navbar .rightSide a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-top: 10px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.navbar .rightSide a:hover {
+  border: 2px solid white;
+}
+
+.navbar .hiddenLinks {
+  display: none;
+}
+
+.navbar .hiddenLinks a {
+  color: aliceblue;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.navbar .hiddenLinks a:hover {
+  border: 2px solid white;
+}
+
+.navbar .rightSide button {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar .rightSide {
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar .rightSide a {
+    display: none;
+  }
+  .navbar .rightSide button {
+    display: inline;
+  }
+  .navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
+
+  .navbar #close .hiddenLinks {
+    display: none;
+  }
+
+  .navbar #open img {
+    display: none;
+  }
+
+  .navbar #close img {
+    display: inherit;
+  }
+}

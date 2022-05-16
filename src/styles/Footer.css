@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 60px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.footer .socialMedia {
+  margin-top: 15px;
+}
+
+.footer .socialMedia svg {
+  margin: 5px;
+  color: aliceblue;
+  font-size: 35px;
+}
+
+.footer p {
+  font-size: small;
+}

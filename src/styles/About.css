@@ -1,0 +1,56 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.about .top {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+
+.about .bottom {
+  padding: 20px;
+  padding-bottom: 60px;
+  width: 60%;
+}
+
+.about .bottom p {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.about .capital {
+  float: left;
+  color: silver;
+  font-size: 50px;
+  line-height: 30px;
+  padding: 2px;
+  font-family: "Times New Roman", times, Sans-Sherif;
+  background: aliceblue;
+}
+
+.about .bottom blockquote {
+  font-style: italic;
+  text-align: justify;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 900px) {
+  .about .bottom {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about .bottom {
+    padding: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+}
