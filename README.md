@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-This project is developed based on this [tutorial](https://www.youtube.com/watch?v=QwarZBtFoFA&t=1669s) by [PedroTech](https://github.com/machadop1407).
-I added shopping Cart functionality by using useCart() hook and also added Express.js-MySQL backend to Contact page 
+This React project is developed based on this [tutorial](https://www.youtube.com/watch?v=QwarZBtFoFA&t=1669s) by [PedroTech](https://github.com/machadop1407).
+I added shopping Cart functionality by using useCart() hook in React and also added Express.js-MySQL backend to Contact page 
 to receive the messages of customers.
 However, there will be only frontend code and deployment here.
 
