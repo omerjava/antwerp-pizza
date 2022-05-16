@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/antwerp-pizza/static/css/main.8ce7c726.css",
+    "main.js": "/antwerp-pizza/static/js/main.2441f96c.js",
+    "static/js/787.28725833.chunk.js": "/antwerp-pizza/static/js/787.28725833.chunk.js",
+    "static/media/pizza2.jpg": "/antwerp-pizza/static/media/pizza2.af384ec3919a99eb4b08.jpg",
+    "static/media/pizza5.jpg": "/antwerp-pizza/static/media/pizza5.d23998557f1f53e88f09.jpg",
+    "static/media/pizza1.jpg": "/antwerp-pizza/static/media/pizza1.8f68de65836f6bc6493b.jpg",
+    "static/media/pizza6.jpg": "/antwerp-pizza/static/media/pizza6.59f1fca436a41912d6e9.jpg",
+    "static/media/pizza7.jpg": "/antwerp-pizza/static/media/pizza7.1b724b90e4c66fc223ab.jpg",
+    "static/media/pizza4.jpg": "/antwerp-pizza/static/media/pizza4.3e9c73d52c19a39c9e00.jpg",
+    "static/media/pizza3.jpg": "/antwerp-pizza/static/media/pizza3.2c2e61a802a3826d600a.jpg",
+    "static/media/pizza.jpg": "/antwerp-pizza/static/media/pizza.aa94dfc5fd01fbb0683d.jpg",
+    "static/media/logoPizza.png": "/antwerp-pizza/static/media/logoPizza.e3312ff763424de0fe01.png",
+    "index.html": "/antwerp-pizza/index.html",
+    "main.8ce7c726.css.map": "/antwerp-pizza/static/css/main.8ce7c726.css.map",
+    "main.2441f96c.js.map": "/antwerp-pizza/static/js/main.2441f96c.js.map",
+    "787.28725833.chunk.js.map": "/antwerp-pizza/static/js/787.28725833.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ce7c726.css",
+    "static/js/main.2441f96c.js"
+  ]
+}
