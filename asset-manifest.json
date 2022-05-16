@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/antwerp-pizza/static/css/main.8ce7c726.css",
-    "main.js": "/antwerp-pizza/static/js/main.2441f96c.js",
+    "main.js": "/antwerp-pizza/static/js/main.4a88cbef.js",
     "static/js/787.28725833.chunk.js": "/antwerp-pizza/static/js/787.28725833.chunk.js",
     "static/media/pizza2.jpg": "/antwerp-pizza/static/media/pizza2.af384ec3919a99eb4b08.jpg",
     "static/media/pizza5.jpg": "/antwerp-pizza/static/media/pizza5.d23998557f1f53e88f09.jpg",
@@ -14,11 +14,11 @@
     "static/media/logoPizza.png": "/antwerp-pizza/static/media/logoPizza.e3312ff763424de0fe01.png",
     "index.html": "/antwerp-pizza/index.html",
     "main.8ce7c726.css.map": "/antwerp-pizza/static/css/main.8ce7c726.css.map",
-    "main.2441f96c.js.map": "/antwerp-pizza/static/js/main.2441f96c.js.map",
+    "main.4a88cbef.js.map": "/antwerp-pizza/static/js/main.4a88cbef.js.map",
     "787.28725833.chunk.js.map": "/antwerp-pizza/static/js/787.28725833.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ce7c726.css",
-    "static/js/main.2441f96c.js"
+    "static/js/main.4a88cbef.js"
   ]
 }
